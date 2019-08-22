@@ -35,7 +35,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=3)
 
 # predict first 4 images in the test set
-model.predict(X_test[:4])
+# model.predict(X_test[:4])
 
 # actual results for first 4 images in test set
-print(y_test[:4])
+# print(y_test[:4])
